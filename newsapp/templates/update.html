@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Database updated successfully</h1>
+{{data}}
+<br /> <br />
+{% for news in data%}
+    {{news}}
+{% endfor %}
+{% endblock %}

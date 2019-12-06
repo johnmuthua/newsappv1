@@ -1,0 +1,15 @@
+* {
+    margin:0,
+    padding:0
+}
+.container {
+    background-color:light-grey;
+    padding: 3%;
+    border-radius: 25px;
+}
+.nav-top {
+    margin-top:-4%;
+}
+.nav-words {
+    padding-top:1%;
+}
