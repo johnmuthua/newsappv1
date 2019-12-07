@@ -1,6 +1,6 @@
 from django.shortcuts import render, render_to_response
 from .models import NewsArticle
-from .config import API_KEY
+from newsappproject.config import API_KEY
 import requests
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
